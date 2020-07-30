@@ -1,0 +1,21 @@
+<h1>Pacientes</h1>
+
+<button class="btn btn-primary">Agregar Paciente</button>
+
+<p *ngIf="!(pacientes && pacientes.length)">
+  No existen registros para mostrar
+</p>
+<table class="table" *ngIf="pacientes && pacientes.length">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let paciente of pacientes">
+      <td>{{paciente.name}}</td>
+      <td>{{paciente.lastName }}</td>
+    </tr>
+  </tbody>
+</table>

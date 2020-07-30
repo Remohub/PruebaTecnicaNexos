@@ -1,0 +1,14 @@
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\bin\Debug\netcoreapp2.1\WebAppNexos.deps.json
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\bin\Debug\netcoreapp2.1\WebAppNexos.runtimeconfig.json
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\bin\Debug\netcoreapp2.1\WebAppNexos.runtimeconfig.dev.json
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\bin\Debug\netcoreapp2.1\WebAppNexos.dll
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\bin\Debug\netcoreapp2.1\WebAppNexos.pdb
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\obj\Debug\netcoreapp2.1\WebAppNexos.csprojAssemblyReference.cache
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\obj\Debug\netcoreapp2.1\WebAppNexos.csproj.CoreCompileInputs.cache
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\obj\Debug\netcoreapp2.1\WebAppNexos.RazorAssemblyInfo.cache
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\obj\Debug\netcoreapp2.1\WebAppNexos.RazorAssemblyInfo.cs
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\obj\Debug\netcoreapp2.1\WebAppNexos.AssemblyInfoInputs.cache
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\obj\Debug\netcoreapp2.1\WebAppNexos.AssemblyInfo.cs
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\obj\Debug\netcoreapp2.1\WebAppNexos.RazorTargetAssemblyInfo.cache
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\obj\Debug\netcoreapp2.1\WebAppNexos.dll
+D:\Programacion\PruebaTrabajo\PruebaTecnicaNexos\WebAppNexos\WebAppNexos\obj\Debug\netcoreapp2.1\WebAppNexos.pdb
