@@ -1,5 +1,5 @@
 import { Injectable, Inject } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 import { IPaciente } from './paciente';
 
@@ -15,5 +15,19 @@ export class PacientesService {
   getPacientes(): Observable<IPaciente[]> {
     return this.http.get<IPaciente[]>(this.apiURL);
   }
+
+  getPaciente(pacienteId: string): Observable<IPaciente> {
+    return this.http.get<IPaciente>(this.apiURL + '/' + pacienteId);
+  }
+
+  createPaciente(paciente: IPaciente): Observable<IPaciente> {
+  return this.http.post<IPaciente>(this.apiURL, paciente);
+}
+
+  updatePaciente(paciente: IPaciente): Observable<IPaciente> {
+    return this.http.put<IPaciente>(this.apiURL + "/" + paciente.id.toString(), paciente);
+  }
+
+
 
 }

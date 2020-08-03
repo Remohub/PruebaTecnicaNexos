@@ -17,10 +17,15 @@
                 <span class='glyphicon glyphicon-home'></span> Home
               </a>
             </li>
-           
+
             <li [routerLinkActive]='["link-active"]'>
               <a [routerLink]='["/Pacientes"]' (click)='collapse()'>
                 <span class='glyphicon glyphicon-th-list'></span> Pacientes
+              </a>
+            </li>
+            <li [routerLinkActive]='["link-active"]'>
+              <a [routerLink]='["/Doctors"]' (click)='collapse()'>
+                <span class='glyphicon glyphicon-th-list'></span> Doctores
               </a>
             </li>
           </ul>

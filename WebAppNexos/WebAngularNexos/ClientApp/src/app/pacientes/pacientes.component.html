@@ -1,6 +1,6 @@
 <h1>Pacientes</h1>
 
-<button class="btn btn-primary">Agregar Paciente</button>
+<button [routerLink]='["/Pacientes-agregar"]' class="btn btn-primary">Agregar Paciente</button>
 
 <p *ngIf="!(pacientes && pacientes.length)">
   No existen registros para mostrar
@@ -16,6 +16,10 @@
     <tr *ngFor="let paciente of pacientes">
       <td>{{paciente.name}}</td>
       <td>{{paciente.lastName }}</td>
+      <td>
+        <button class="btn btn-primary" [routerLink]='["/Pacientes-editar/" + paciente.id]'>Editar</button>
+        <button class="btn btn-danger" (click)="delete(persona)">Borrar</button>
+      </td>
     </tr>
   </tbody>
 </table>
